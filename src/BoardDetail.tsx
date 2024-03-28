@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import axios from "axios";
 import './BoardDetail.css';
+import axios from "axios";
 
 interface BoardInfo {
     id: string;

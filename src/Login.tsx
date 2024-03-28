@@ -92,6 +92,7 @@ const Login: React.FC = () => {
                             placeholder="Password"
                             className='LoginI' />
                     </div>
+                    <button type="submit" className='LoginBtn'>Login</button>
                 </form>
                 <button onClick={() => navigate('/Join')} className='LoginBtn'>Join</button>
             </div>
